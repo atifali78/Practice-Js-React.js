@@ -1,9 +1,6 @@
-function mine(){
-alert("Hello pakistan")
+//constant 7/11/24
+const a = 1;
+
+{
+  console.log(" withinout scope a", a);
 }
-function msg(){
-    alert("Hello World")
-    }
-    function printvalue(){  
-        var name=document.form1.name.value;  
-        alert("Welcome: "+name);
