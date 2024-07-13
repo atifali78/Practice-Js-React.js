@@ -34,7 +34,40 @@
 // ----------------------------------------------------------------------------------------
 //   check a number that is divide by 2 or not
 // 7-12-2024
-let number = prompt("Input a number");
-if (number % 2 == 0) {
-  console.log("This number is divided by 2 = ", number);
-} else console.log("your number is not divided by 2", number);
+// let number = prompt("Input a number");
+// if (number % 2 == 0) {
+//   console.log("This number is divided by 2 = ", number);
+// } else console.log("your number is not divided by 2", number);
+// ---------------------------------------------------------------------------------------
+// check the the number is  even or odd.
+// var number = 10;
+// if (number % 2 == 0) {
+//     console.log(number,"is even  ");
+// }
+// else {
+//     console.log(number,"is odd")
+// }
+// -----------------------------------------------------------------------------------------
+// print all the odd number from zero to 100
+
+// for (let number = 0; number <= 100; number ++) {
+//     if (number % 3 == 0){
+//   console.log(number);
+//         }
+ 
+// }
+// // print all the even number from zero to 100
+
+
+// for (let number = 0; number <= 100; number++) {
+//   if (number % 2 === 0) {
+//     console.log(number);
+//   }
+// }
+// -----------------------------------------------------------------------------------------
+// 7-13-24
+// practice of loop
+let students = ["Ali", "Rehman", "Nasir", "Ahmad", "Abdullah"];
+for (let idx = 0; idx < students.length; idx++){
+    console.log(students[idx]);
+}
