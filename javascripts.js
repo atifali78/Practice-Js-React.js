@@ -67,7 +67,37 @@
 // -----------------------------------------------------------------------------------------
 // 7-13-24
 // practice of loop
-let students = ["Ali", "Rehman", "Nasir", "Ahmad", "Abdullah"];
-for (let idx = 0; idx < students.length; idx++){
-    console.log(students[idx]);
-}
+// let students = ["Ali", "Rehman", "Nasir", "Ahmad", "Abdullah"];
+// for (let idx = 0; idx < students.length; idx++){
+//     console.log(students[idx]);
+// }
+// _____________________________________________________________________________________
+// let student=["hassan", "Minha", "fakhar"];
+
+// for (let stud of student) {
+//         console.log("Mr.",stud,"Welcome")
+//     }
+
+// ----------------------------------------------------------------------------------------
+
+// ----------------------------------------------------------------------------------
+// function word() {
+//     for (let i = 0;i <= 10; i++) {
+//         console.log("Heelo paktistan");
+//     }
+// }
+// word();
+// ________________________________________________________________________________________
+
+
+// let marks = [45, 10, 55];
+// let sum = 0;
+// for (let val of marks){
+//     sum = sum + val;
+  
+// }
+// let averge = sum / marks.length;
+// console.log("So your marks averge is=",averge);
+
+// ___-----------------------------------------------------------------------------------------
+
