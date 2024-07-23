@@ -105,3 +105,19 @@
 //     console.log("You are pass");
 // }
         
+// -------------------------------------------------------------------
+
+
+// for (let number = 0; number <= 100; number ++) {
+//     if (number % 3 == 0){
+//   console.log(number);
+//         }
+
+// }
+// ---------------------------------------------------------------
+
+function num() {
+    if (let i = 1; i <= 10;i++)
+    console.log("Hello word")
+}
+num();
