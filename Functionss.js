@@ -26,14 +26,12 @@
 // }
 // values(undefined,undefined,5,6);
 // ------------------------------------------------------
-// Arrow function and anonymous function
-const evenOdd = (p1 = 2, p2 = 3) => {
-  p1 % 2 == 0 ? console.log(`${p1} even`) : console.log(`${p1} odd`);
-  p2 % 2 == 0
-    ? console.log(`${p2} even`) //template literal
-    : console.log(`${p2} odd`);
-};
-//evenOdd();
+// // Arrow function and anonymous function
+// const evenOdd = (p1 = 2, p2 = 3) => {
+//   p1 % 2 == 0 ? console.log(`${p1} even`) : console.log(`${p1} odd`);
+//   p2 % 2 == 0 ? console.log(`${p2} even`) : console.log(`${p2} odd`); //template literal {`${p2} odd`}
+// };
+// evenOdd();
 
 // ----------------------------------------------
 // Pass by copy pass by reference
@@ -55,12 +53,18 @@ const evenOdd = (p1 = 2, p2 = 3) => {
 // -----------------------------------------------------
 
 // Arrow function
-let b = "dollar";
-const a = () => {
-  console.log(`hi ${b} `);
-};
-//a();
+// let b = "dollar";
+// const a = () => {
+//   console.log(`hi ${b} `);
+// };
+// //a();
 
-(() => {
-  console.log("IIFE");
-})();
+// (() => {
+//   console.log("IIFE");
+// })();
+// ___________________________________________________________
+// const sim = (a, b) => {
+//   console.log(`The Sum of ${a} and ${b} is ${a + b}`);
+// };
+// sim(2, 5);
+
