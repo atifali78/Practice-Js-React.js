@@ -27,30 +27,40 @@
 // values(undefined,undefined,5,6);
 // ------------------------------------------------------
 // Arrow function and anonymous function
-// const evenOdd = (p1 = 2, p2 = 3) => {
-//      p1 % 2 == 0 ? console.log('${p1}'=> even);
-// console.log('${p1}'=> odd);
-// p2 % 3 == 0 ? console.log('${p2}'=> even);
-// console.log('${p2}'=> odd);
-// }
-// evenOdd();
-
+const evenOdd = (p1 = 2, p2 = 3) => {
+  p1 % 2 == 0 ? console.log(`${p1} even`) : console.log(`${p1} odd`);
+  p2 % 2 == 0
+    ? console.log(`${p2} even`) //template literal
+    : console.log(`${p2} odd`);
+};
+//evenOdd();
 
 // ----------------------------------------------
 // Pass by copy pass by reference
 
-
 // -------------------------------------------------
 // callback by function
 
-function callfun(name, callback) {
-    console.log("My name is", name, "Ali")
-    callback();
-}
+// function callfun(name, callback) {
+//     console.log("My name is", name, "Ali")
+//     callback();
+// }
 
-function newone() {
-    console.log("You are great")
-}
+// function newone() {
+//     console.log("You are great")
+// }
 
-callfun("Atif",newone);
+// callfun("Atif",newone);
 
+// -----------------------------------------------------
+
+// Arrow function
+let b = "dollar";
+const a = () => {
+  console.log(`hi ${b} `);
+};
+//a();
+
+(() => {
+  console.log("IIFE");
+})();
