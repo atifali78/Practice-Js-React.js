@@ -13,25 +13,44 @@
 
 // ---------------------------------------------------
 // function declaration and expression
-function evenOdd(p1,p2) {  //parameters
-    console.log("P1>",p1);
-    console.log("P2>",p2);
-}
-evenOdd(1, 3);//argumnets
+// function evenOdd(p1,p2) {  //parameters
+//     console.log("P1>",p1);
+//     console.log("P2>",p2);
+// }
+// evenOdd(1, 3);//argumnets
 // -------------------------------------------------------
-// Default functions
-function names()
+// Default functions and i solve i thing if i pass the argumnets in last 2 then how we can solve this
 
+// function values(p1 = 1, p2 = 2, p3 = 3, p4 = 4) {
+//     console.log(p1,p2,p3,p4);
+// }
+// values(undefined,undefined,5,6);
 // ------------------------------------------------------
 // Arrow function and anonymous function
-const evenOdd = (p1 = 2, p2 = 3) => {
-     p1 % 2 == 0 ? console.log('${p1}'=> even);
-console.log('${p1}'=> odd);
-p2 % 3 == 0 ? console.log('${p2}'=> even);
-console.log('${p2}'=> odd);
-}
-evenOdd();
+// const evenOdd = (p1 = 2, p2 = 3) => {
+//      p1 % 2 == 0 ? console.log('${p1}'=> even);
+// console.log('${p1}'=> odd);
+// p2 % 3 == 0 ? console.log('${p2}'=> even);
+// console.log('${p2}'=> odd);
+// }
+// evenOdd();
 
 
 // ----------------------------------------------
 // Pass by copy pass by reference
+
+
+// -------------------------------------------------
+// callback by function
+
+function callfun(name, callback) {
+    console.log("My name is", name, "Ali")
+    callback();
+}
+
+function newone() {
+    console.log("You are great")
+}
+
+callfun("Atif",newone);
+
