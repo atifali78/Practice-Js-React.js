@@ -67,4 +67,39 @@
 //   console.log(`The Sum of ${a} and ${b} is ${a + b}`);
 // };
 // sim(2, 5);
+// -------------------------------------------------------------
+// // ternary operator
+// let a = 1;
+// let b = 2;
+// let c = 3;
+// let d = 4;
+
+// let result = (a > b) ? ((a > c) ? ((a > d) ? a : d) : (c > d ? c : d)) : ((b > c) ? ((b > d) ? b : d) : (c > d ? c : d));
+
+// console.log(result);
+
+// -----------------------------------------------------
+// ternary operator in if else statement
+let a = 1;
+let b = 2;
+let c = 3;
+let d = 5;
+
+if (a > b && a > c && a > d) {
+  console.log(a, "is greater ");
+}
+else if (b > a && b > c && b > d) {
+  console.log(b, "is greater ");
+}
+else if(c > a && c > b && c > d) {
+  console.log(c, "is greater ");
+}
+else if (d > a && d > b && d > c) {
+  console.log(d, "is greater ");
+}
+else {
+  console.log("Error");
+}
+
+
 
