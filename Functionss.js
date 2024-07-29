@@ -102,5 +102,15 @@
 // }
 
 // ------------------------------------------------------------
-function abc()=>
+let promise = new Promise((resolve, reject) => {
+  // Simulating an asynchronous operation
+  setTimeout(() => {
+    let success = true; // Change to false to simulate an error
 
+    if (success) {
+      resolve("Operation was successful!"); // Fulfilled
+    } else {
+      reject("Operation failed."); // Rejected
+    }
+  }, 2000);
+});
