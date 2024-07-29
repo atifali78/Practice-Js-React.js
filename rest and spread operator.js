@@ -37,5 +37,6 @@ const person = {
 };
 const { id, name, ...user } = person;
 console.log(id); // "123"
+
 console.log(name); // "ali"
 console.log(user); // { age: 20 }
