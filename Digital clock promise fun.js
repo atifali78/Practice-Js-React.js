@@ -48,6 +48,7 @@ async function runClock(times) {
     times.push(currentTime);
     await wait(1000); // Wait for 1 second
   }
+  
 }
 
 // Initialize the array to store time updates
