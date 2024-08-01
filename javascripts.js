@@ -29,19 +29,7 @@
 //     var b = 4;
 //     var b = 5;
 
-//     console.log("variable declaration",b)
-// }
-// -------------------------------------------------------------
-// let a = 5;
-// let b = 4;
-// const addNumber = (a, b) => {
-//   console.log("your values is", a, b);
-// };
-// addNumber(a + b);
-// ----------------------------------------------------------------
-// const addNumber = (a, b) => {
-//     console.log("The sum of a and b is", a + b);
-//     return a + b;
-// };
-//     addNumber(3 , 4);
-// -----------------------------------------------------------------
+    console.log("variable declaration",b)
+}
+
+
