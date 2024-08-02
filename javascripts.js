@@ -116,8 +116,24 @@
 // }
 // ---------------------------------------------------------------
 
-function num() {
-    if (let i = 1; i <= 10;i++)
-    console.log("Hello word")
-}
-num();
+// function num() {
+//     if (let i = 1; i <= 10;i++)
+//     console.log("Hello word")
+// }
+// num();
+// --------------------------------
+// promise function
+const myPromise = new Promise((resolve, reject) => {
+    let a = 3, b = 4;
+    if (a > 3) {
+        resolve(`${a} is greater or equal`);
+    } else {
+        reject(`${b} is greater`);
+    }
+});
+
+myPromise.then((m) => {
+    console.log(m);
+}).catch((error) => {
+    console.error(error);
+});
