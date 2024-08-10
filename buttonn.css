@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.beautiful-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.beautiful-button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
