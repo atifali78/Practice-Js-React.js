@@ -43,6 +43,7 @@ function wait(ms) {
 // Function to update the time and store it in the array
 async function runClock(times) {
   while (true) {
+    
     const currentTime = getCurrentTime();
     console.log(currentTime);
     times.push(currentTime);

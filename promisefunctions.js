@@ -15,6 +15,7 @@ let promise = new Promise((resolve, reject) => {
   }
 });
 
+
 promise
   .then((message) => console.log(message))
   .catch((error) => console.log("Error:", error));
