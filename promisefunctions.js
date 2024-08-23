@@ -26,7 +26,8 @@ let condition;
   
 if(condition is met){  
 resolve('Promise is resolved successfully.');  
-}else{  
-reject('Promise is rejected');  
+} else{  
+  reject('Promise is rejected');  
+  
 }  
 });  
